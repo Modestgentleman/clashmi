@@ -96,16 +96,16 @@ dependencies:
       ref: bf21977eaa4e6035b1d81e249f91525a74f86ffd 
       path: packages/window_manager
   libclash_vpn_service:
-    path: ../libclash-vpn-service/
-    #git:
-      #url: https://github.com/KaringX/libclash-vpn-service.git
-      #ref: master
+    #path: ../libclash-vpn-service/
+    git:
+      url: https://github.com/KaringX/libclash-vpn-service.git
+      ref: master
 
   board_service:
-    path: ../board-service/
-    #git:
-      #url: https://github.com/KaringX/board-service.git
-      #ref: master
+    #path: ../board-service/
+    git:
+      url: https://github.com/KaringX/board-service.git
+      ref: master
 
 dev_dependencies:
   source_gen: 4.2.3
